@@ -1,6 +1,6 @@
 # Modules Completed
 
-- [ ] 01 - New Variables
+- [x] 01 - New Variables
 - [ ] 02 - Arrow functions
 - [ ] 03 - Template Strings
 - [ ] 04 - Additional String Improvements
