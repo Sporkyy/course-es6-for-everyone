@@ -1,7 +1,7 @@
 # Modules Completed
 
-- [x] 01 - New Variables
-- [ ] 02 - Arrow functions
+- [x] 01 - New Variables (2018-12-03)
+- [x] 02 - Arrow functions (2018-12-05)
 - [ ] 03 - Template Strings
 - [ ] 04 - Additional String Improvements
 - [ ] 05 - Destructuring

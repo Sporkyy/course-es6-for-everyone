@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Arrow functions → → </title>
-</head>
-<body>
-<script>
-  const names = ['wes', 'kait', 'lux'];
+  <head>
+    <meta charset="UTF-8" />
+    <title>Arrow functions → →</title>
+  </head>
+  <body>
+    <script>
+      const names = ["wes", "kait", "lux"];
+      console.log(names);
 
-  const fullNames = names.map(function(name) {
-    return `${name} bos`;
-  });
+      const fullNames = names.map(function(name) {
+        return `${name} bos`;
+      });
+      console.log(fullNames);
 
-  const fullNames2 = names.map((name) => {
-    return `${name} bos`;
-  });
+      const fullNames2 = names.map(name => {
+        return `${name} bos`;
+      });
+      console.log(fullNames2);
 
-  const fullNames3 = names.map(name => {
-    return `${name} bos`;
-  });
+      const fullNames3 = names.map(name => `${name} bos`);
+      console.log(fullNames3);
 
-  const fullNames4 = names.map(name => `${name} bos`);
+      function sayMyName1(name) {
+        console.log(name);
+      }
+      sayMyName1("Todd");
 
-  const fullNames5 = names.map(() => `cool bos`);
-
-  const sayMyName = (name) => {
-    alert(`Hello ${name}!`)
-  }
-
-  sayMyName('Wes');
-
-</script>
-</body>
+      const sayMyName2 = name => console.log(name);
+      sayMyName2("Todd");
+    </script>
+  </body>
 </html>
