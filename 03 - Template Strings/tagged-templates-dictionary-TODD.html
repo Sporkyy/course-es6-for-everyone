@@ -19,14 +19,23 @@
         JS: "JavaScript"
       };
 
-      const addAbbreviations = (string, ...values) {
-        const abbr = string => `<abbr></abbr>`;
-        const abbreviated = values.map()
-      }
+      const addAbbreviations = (strings, ...values) => {
+        // console.log(strings);
+        // console.log(values);
+        const abbr = (a, f) => `<abbr title="${f}">${a}</abbr>`;
+        const abbreviated = values.map(value =>
+          dict[value] ? abbr(value, dict[value]) : value
+        );
+        console.log(abbreviated);
+        return strings.reduce(
+          (acc, curr, i) => `${acc}${curr}${abbreviated[i] || ""}`,
+          ""
+        );
+      };
 
-      const first = "Wes";
-      const last = "Bos";
-      const sentence = `Hello my name is ${first} ${last} and I love to code ${"HTML"}, ${"CSS"} and ${"JS"}`;
+      const first = "Todd";
+      const last = "Sayre";
+      const sentence = addAbbreviations`Hello my name is ${first} ${last} and I love to code ${"HTML"}, ${"CSS"} and ${"JS"}`;
 
       const bio = document.querySelector(".bio");
       const p = document.createElement("p");
