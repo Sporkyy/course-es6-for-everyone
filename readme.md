@@ -3,7 +3,7 @@
 - [x] 01 - New Variables (2018-12-03)
 - [x] 02 - Arrow functions (2018-12-05)
 - [x] 03 - Template Strings
-- [ ] 04 - Additional String Improvements
+- [x] 04 - Additional String Improvements
 - [ ] 05 - Destructuring
 - [ ] 06 - Iterables & Looping
 - [ ] 07 - An Array of Improvements
