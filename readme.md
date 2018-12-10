@@ -4,7 +4,7 @@
 - [x] 02 - Arrow functions (2018-12-05)
 - [x] 03 - Template Strings
 - [x] 04 - Additional String Improvements
-- [ ] 05 - Destructuring
+- [x] 05 - Destructuring
 - [ ] 06 - Iterables & Looping
 - [ ] 07 - An Array of Improvements
 - [ ] 08 - Say Hello to ...Spread and ...Rest
