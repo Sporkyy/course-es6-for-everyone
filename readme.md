@@ -5,7 +5,7 @@
 - [x] 03 - Template Strings
 - [x] 04 - Additional String Improvements
 - [x] 05 - Destructuring
-- [ ] 06 - Iterables & Looping
+- [x] 06 - Iterables & Looping
 - [ ] 07 - An Array of Improvements
 - [ ] 08 - Say Hello to ...Spread and ...Rest
 - [ ] 09 - Object Literal Upgrades
