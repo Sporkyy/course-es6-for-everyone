@@ -2,10 +2,10 @@
 
 - [x] 01 - New Variables (2018-12-03)
 - [x] 02 - Arrow functions (2018-12-05)
-- [x] 03 - Template Strings
-- [x] 04 - Additional String Improvements
-- [x] 05 - Destructuring
-- [x] 06 - Iterables & Looping
+- [x] 03 - Template Strings (2018-12-10)
+- [x] 04 - Additional String Improvements (2018-12-10)
+- [x] 05 - Destructuring (2018-12-10)
+- [x] 06 - Iterables & Looping (2018-12-11)
 - [ ] 07 - An Array of Improvements
 - [ ] 08 - Say Hello to ...Spread and ...Rest
 - [ ] 09 - Object Literal Upgrades
