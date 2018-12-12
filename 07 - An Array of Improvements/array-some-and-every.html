@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Array .some() and .every()</title>
-</head>
-<body>
-<script>
-  const ages = [32, 15, 19, 12];
+  <head>
+    <meta charset="UTF-8" />
+    <title>Array .some() and .every()</title>
+  </head>
+  <body>
+    <script>
+      const ages = [32, 15, 19, 12];
 
-  // 👵👨 is there at least one adult in the group?
-  const adultPresent = ages.some(age => age >= 18);
-  console.log(adultPresent);
+      // 👵👨 is there at least one adult in the group?
+      const isAdultPresent = ages.some(age => 18 <= age);
+      const areYounginsAbout = ages.some(age => age < 18);
+      console.log({ isAdultPresent, areYounginsAbout });
 
-  // 🍻 is everyone old enough to drink?
-  const allOldEnough = ages.every(age => age >= 19);
-  console.log(allOldEnough);
-
-
-</script>
-</body>
+      // 🍻 is everyone old enough to drink alcohol?
+      const alcoholAge = 21;
+      const isEveryoneOfAlcholAge = ages.every(age => alcoholAge <= age);
+      console.log({ isEveryoneOfAlcholAge });
+    </script>
+  </body>
 </html>
