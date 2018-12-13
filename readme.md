@@ -6,7 +6,7 @@
 - [x] 04 - Additional String Improvements (2018-12-10)
 - [x] 05 - Destructuring (2018-12-10)
 - [x] 06 - Iterables & Looping (2018-12-11)
-- [x] 07 - An Array of Improvements
+- [x] 07 - An Array of Improvements (2018-11-12)
 - [ ] 08 - Say Hello to ...Spread and ...Rest
 - [ ] 09 - Object Literal Upgrades
 - [ ] 10 - Promises Changed
