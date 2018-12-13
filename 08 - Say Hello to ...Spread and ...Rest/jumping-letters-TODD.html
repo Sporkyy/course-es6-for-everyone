@@ -29,6 +29,15 @@
   <body>
     <h2 class="jump">SPREADS!</h2>
 
-    <script></script>
+    <script>
+      const wrapLettersInSpanTags = str => {
+        const arr = [...str];
+        const wrapInSpanTags = s => `<span>${s}</span>`;
+        return arr.reduce((acc, curr) => `${acc}${wrapInSpanTags(curr)}`, "");
+      };
+
+      const jump = document.querySelector(".jump");
+      jump.innerHTML = wrapLettersInSpanTags(jump.textContent);
+    </script>
   </body>
 </html>
