@@ -8,7 +8,7 @@
 - [x] 06 - Iterables & Looping (2018-12-11)
 - [x] 07 - An Array of Improvements (2018-12-12)
 - [x] 08 - Say Hello to ...Spread and ...Rest (2018-12-13)
-- [ ] 09 - Object Literal Upgrades
+- [x] 09 - Object Literal Upgrades (2018-12-14)
 - [ ] 10 - Promises Changed
 - [ ] 11 - Symbols
 - [ ] 12 - Code Quality with ESLint
