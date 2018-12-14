@@ -9,7 +9,7 @@
 - [x] 07 - An Array of Improvements (2018-12-12)
 - [x] 08 - Say Hello to ...Spread and ...Rest (2018-12-13)
 - [x] 09 - Object Literal Upgrades (2018-12-14)
-- [ ] 10 - Promises Changed
+- [x] 10 - Promises Changed (2018-12-14)
 - [ ] 11 - Symbols
 - [ ] 12 - Code Quality with ESLint
 - [ ] 13 - JavaScript Modules and Using npm
