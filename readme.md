@@ -10,7 +10,7 @@
 - [x] 08 - Say Hello to ...Spread and ...Rest (2018-12-13)
 - [x] 09 - Object Literal Upgrades (2018-12-14)
 - [x] 10 - Promises Changed (2018-12-14)
-- [ ] 11 - Symbols
+- [x] 11 - Symbols (2018-12-18)
 - [ ] 12 - Code Quality with ESLint
 - [ ] 13 - JavaScript Modules and Using npm
 - [ ] 14 - ES6 Tooling

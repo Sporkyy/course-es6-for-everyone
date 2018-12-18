@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Symbols</title>
+  </head>
+  <body>
+    <script>
+      const todd = Symbol("Todd");
+      const person = Symbol("Todd");
+      // console.log(todd === person);
+
+      const kidsInClass = {
+        [Symbol("Alice")]: { grade: 43, absences: 7 },
+        [Symbol("Bob")]: { grade: 89, absences: 0 },
+        [Symbol("Bob")]: { grade: 87, absences: 1 }
+      };
+      // console.log(kidsInClass);
+
+      for (kid in kidsInClass) {
+        // console.log(kid);
+      }
+
+      const syms = Object.getOwnPropertySymbols(kidsInClass);
+      // console.log(syms);
+      const data = syms.map(sym => kidsInClass[sym]);
+      console.log(data);
+    </script>
+  </body>
+</html>
