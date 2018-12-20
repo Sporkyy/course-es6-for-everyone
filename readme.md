@@ -11,8 +11,8 @@
 - [x] 09 - Object Literal Upgrades (2018-12-14)
 - [x] 10 - Promises Changed (2018-12-14)
 - [x] 11 - Symbols (2018-12-18)
-- [ ] 12 - Code Quality with ESLint
-- [ ] 13 - JavaScript Modules and Using npm
+- [x] 12 - Code Quality with ESLint (2018-12-19)
+- [x] 13 - JavaScript Modules and Using npm (2018-12-20)
 - [ ] 14 - ES6 Tooling
 - [ ] 15 - Classes
 - [ ] 16 - Generators
