@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inheritance Review</title>
+  </head>
+  <body>
+    <script>
+      function Dog(name, breed) {
+        this.name = name;
+        this.breed = breed;
+      }
+
+      Dog.prototype.bark = function() {
+        return `Woof! Woof! My name is ${this.name}`;
+      };
+
+      const lassie = new Dog('Lassie', 'Border Collie');
+      const cujo = new Dog('Cujo', 'Evil');
+
+      Dog.prototype.bark = function() {
+        return `Woof! 🔊 Woof! 🔊 my name is ${this.name} 🐕 and I'm ${this.breed} breed`;
+      };
+
+      console.log(lassie.bark());
+
+      Dog.prototype.cuddle = function() {
+        return `I love my bipedal companion! ❤`;
+      };
+
+      console.log(cujo.cuddle());
+    </script>
+  </body>
+</html>
