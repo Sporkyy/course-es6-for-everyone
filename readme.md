@@ -13,7 +13,7 @@
 - [x] 11 - Symbols (2018-12-18)
 - [x] 12 - Code Quality with ESLint (2018-12-19)
 - [x] 13 - JavaScript Modules and Using npm (2018-12-20)
-- [ ] 14 - ES6 Tooling
+- [x] 14 - ES6 Tooling
 - [ ] 15 - Classes
 - [ ] 16 - Generators
 - [ ] 17 - Proxies

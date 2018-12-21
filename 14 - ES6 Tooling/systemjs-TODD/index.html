@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script src="https://jspm.io/system@0.19.js"></script>
+    <meta charset="UTF-8" />
+    <title>System JS</title>
+  </head>
+  <body>
+    <script>
+      System.config({ transpiler: 'babel' });
+      System.import('./main');
+    </script>
+  </body>
+</html>
