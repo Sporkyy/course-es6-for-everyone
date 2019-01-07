@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Looping Generators</title>
+  </head>
+  <body>
+    <script>
+      function* lyrics() {
+        yield `Shawty had them Apple Bottom Jeans (jeans)`;
+        yield `Boots with the fur (with the fur)`;
+        yield `The whole club was lookin' at her`;
+        yield `She hit the floor (she hit the floor)`;
+        yield `Next thing you know`;
+        yield `Shawty got low low low low low low low low`;
+        yield `Them baggy sweat pants and the Reebok's with the straps (the straps)`;
+        yield `She turned around and gave that big booty a smack (a smack)`;
+        yield `She hit the floor`;
+        yield `Next thing you know`;
+        yield `Shawty got low low low low low low low low`;
+      }
+
+      const low = lyrics();
+
+      for (const line of low) {
+        console.log(line);
+      }
+    </script>
+  </body>
+</html>

@@ -15,7 +15,7 @@
 - [x] 13 - JavaScript Modules and Using npm (2018-12-20)
 - [x] 14 - ES6 Tooling (2018-12-21)
 - [x] 15 - Classes (2018-12-21)
-- [ ] 16 - Generators
+- [x] 16 - Generators 🎊(2019-01-07)🎊
 - [ ] 17 - Proxies
 - [ ] 18 - Sets and WeakSets
 - [ ] 19 - Maps and WeakMaps
