@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Proxies!</title>
+  </head>
+  <body>
+    <script>
+      const person = { name: 'Todd', age: '69' };
+      const personProxy = new Proxy(person, {
+        get(target, name) {
+          // console.log('Someone is asking for', target, name);
+          // return 'Nope ☹';
+          const value = target[name];
+          if ('string' === typeof value) {
+            return value.toUpperCase();
+          }
+          return value;
+        },
+        set(target, name, value) {
+          if ('string' === typeof value) {
+            target[name] = `${value.trim()} 🎊`;
+          } else {
+            target[name] = value;
+          }
+        }
+      });
+
+      personProxy.name = 'Ptolemy';
+    </script>
+  </body>
+</html>
