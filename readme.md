@@ -17,7 +17,7 @@
 - [x] 15 - Classes (2018-12-21)
 - [x] 16 - Generators 🎊(2019-01-07)🎊
 - [x] 17 - Proxies (2019-01-08)
-- [ ] 18 - Sets and WeakSets
+- [x] 18 - Sets and WeakSets (2019-01-14)
 - [ ] 19 - Maps and WeakMaps
 - [ ] 20 - Async + Await
 - [ ] 21 - New, Future and Experimental Language Additions
