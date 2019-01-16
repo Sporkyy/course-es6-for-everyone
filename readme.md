@@ -18,6 +18,6 @@
 - [x] 16 - Generators 🎊(2019-01-07)🎊
 - [x] 17 - Proxies (2019-01-08)
 - [x] 18 - Sets and WeakSets (2019-01-14)
-- [ ] 19 - Maps and WeakMaps
+- [x] 19 - Maps and WeakMaps (2019-01-16)
 - [ ] 20 - Async + Await
 - [ ] 21 - New, Future and Experimental Language Additions
