@@ -19,5 +19,5 @@
 - [x] 17 - Proxies (2019-01-08)
 - [x] 18 - Sets and WeakSets (2019-01-14)
 - [x] 19 - Maps and WeakMaps (2019-01-16)
-- [ ] 20 - Async + Await
+- [x] 20 - Async + Await (2019-01-18)
 - [ ] 21 - New, Future and Experimental Language Additions

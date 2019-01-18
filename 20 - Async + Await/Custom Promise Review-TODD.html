@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Custom Promises</title>
+  </head>
+
+  <body>
+    <script>
+      function breath(amount) {
+        return new Promise((resolve, reject) => {
+          if (amount < 500) {
+            reject(`${amount}ms is too few milliseconds`);
+          }
+          setTimeout(() => resolve(`Done for ${amount}ms !!!`), amount);
+        });
+      }
+
+      breath(1000)
+        .then(res => {
+          console.log(res);
+          return breath(500);
+        })
+        .then(res => {
+          console.log(res);
+          return breath(600);
+        })
+        .then(res => {
+          console.log(res);
+          return breath(200);
+        })
+        .then(res => {
+          console.log(res);
+          return breath(500);
+        })
+        .then(res => {
+          console.log(res);
+          return breath(2000);
+        })
+        .then(res => {
+          console.log(res);
+          return breath(250);
+        })
+        .then(res => {
+          console.log(res);
+          return breath(300);
+        })
+        .then(res => {
+          console.log(res);
+          return breath(300);
+        })
+        .catch(err => {
+          console.error('You done gone and did it now boy!');
+          console.error(err);
+        });
+    </script>
+  </body>
+</html>
