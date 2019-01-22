@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Object .entries() and .values()</title>
+  </head>
+
+  <body>
+    <script>
+      const inventory = {
+        backpacks: 10,
+        jeans: 23,
+        hoodies: 4,
+        shoes: 11
+      };
+
+      // Make a nav for the inventory
+      // const nav = Object.keys(inventory).map(item => `<li>${item}</li>`).join('');
+      const nav = Object.keys(inventory).reduce((acc, curr) => `${acc}<li>${curr}</li>`, '');
+
+      console.log(nav);
+
+      // Tell us how many values we have
+      const totalInventory = Object.values(inventory).reduce((acc, curr) => acc + curr, 0);
+
+      console.log(totalInventory);
+
+      // Print an inventory list with numbers
+      // Object.entries(inventory).forEach(([item, count]) => {
+      //   console.log(`${item}: ${count}`);
+      // });
+      for (const [name, quantity] of Object.entries(inventory)) {
+        if ('jeans' === name) {
+          break;
+        }
+        console.log(`${name}: ${quantity}`);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>String padStart and padEnd</title>
+  </head>
+
+  <body>
+    <script>
+      const strings = [
+        'short',
+        'medium size',
+        'this is really really long',
+        'this is really reall really really really really long'
+      ];
+
+      // const longestString = strings
+      //   .sort((a, b) => (a.length === b.length ? 0 : a.length < b.length ? 1 : -1))
+      //   .map(str => str.length)[0];
+
+      // const longestString = strings.reduce(
+      //   (acc, curr) => (acc < curr.length ? curr.length : acc),
+      //   strings[0].length
+      // );
+
+      const longestString = strings.reduce(
+        (acc, curr) => ('undefined' === typeof acc || acc < curr.length ? curr.length : acc),
+        undefined
+      );
+
+      console.log(longestString);
+
+      strings.forEach(str => console.log(str.padStart(longestString)));
+    </script>
+  </body>
+</html>

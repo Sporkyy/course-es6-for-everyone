@@ -20,4 +20,4 @@
 - [x] 18 - Sets and WeakSets (2019-01-14)
 - [x] 19 - Maps and WeakMaps (2019-01-16)
 - [x] 20 - Async + Await (2019-01-18)
-- [ ] 21 - New, Future and Experimental Language Additions
+- [x] 21 - New, Future and Experimental Language Additions (2019-01-22)
